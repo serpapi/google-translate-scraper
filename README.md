@@ -9,7 +9,7 @@ Choose structured JSON for applications or Markdown for LLMs and AI agents.
 Translate any text with a simple GET request:
 
 ```text
-https://serpapi.com/search?engine=google_translate&text=I+love+coffee.+It+helps+me+start+my+day.&from=auto&to=es&api_key=YOUR_SERPAPI_API_KEY
+https://serpapi.com/search?engine=google_translate&text=I+love+coffee.+It+helps+me+start+my+day.&from=auto&to=es&api_key=SERPAPI_API_KEY
 ```
 
 - `text` is the text to translate, up to 5,000 characters. Emojis and some rare characters count as two.
@@ -25,7 +25,7 @@ See the [Google Translate languages](https://serpapi.com/google-translate-langua
 The code examples read your API key from the `SERPAPI_API_KEY` environment variable:
 
 ```bash
-export SERPAPI_API_KEY="YOUR_SERPAPI_API_KEY"
+export SERPAPI_API_KEY="SERPAPI_API_KEY"
 ```
 
 Each example detects the language of “I love coffee. It helps me start my day.” and translates it into Spanish. The output looks like this:
@@ -411,7 +411,7 @@ Other MCP clients:
   "mcpServers": {
     "serpapi": {
       "type": "http",
-      "url": "https://mcp.serpapi.com/YOUR_SERPAPI_API_KEY/mcp"
+      "url": "https://mcp.serpapi.com/SERPAPI_API_KEY/mcp"
     }
   }
 }
