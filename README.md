@@ -13,6 +13,7 @@ https://serpapi.com/search?engine=google_translate&text=I+love+coffee.+It+helps+
 - `text` is the text to translate, up to 5,000 characters. Emojis and some rare characters count as two.
 - `from` is the language of the text, such as `en`, or `auto` to detect it.
 - `to` is the language to translate into, such as `es`.
+- `api_key` is your SerpApi API key. Replace `SERPAPI_API_KEY` with it.
 
 See the [Google Translate languages](https://serpapi.com/google-translate-languages?utm_source=github_google_translate_scraper) page for all supported language codes.
 
