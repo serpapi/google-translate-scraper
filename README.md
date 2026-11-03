@@ -47,13 +47,14 @@ curl --get https://serpapi.com/search \
 
 ### JavaScript integration
 
-Install the [SerpApi JavaScript library](https://github.com/serpapi/serpapi-javascript):
+Install the [SerpApi JavaScript library](https://github.com/serpapi/serpapi-javascript) and set your project to use ES modules:
 
 ```bash
 npm install serpapi
+npm pkg set type=module
 ```
 
-Create an `index.mjs` file:
+Create an `index.js` file:
 
 ```javascript
 import { getJson } from "serpapi";
@@ -69,7 +70,7 @@ const results = await getJson({
 console.log(results.translation.target.text);
 ```
 
-Run it with `node index.mjs`.
+Run it with `node index.js`.
 
 ### Python integration
 
