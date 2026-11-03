@@ -20,6 +20,8 @@ See the [Google Translate languages](https://serpapi.com/google-translate-langua
 
 [Register at SerpApi](https://serpapi.com?utm_source=github_google_translate_scraper) to get your API key, and keep it private. Try the request live in the [SerpApi Playground](https://serpapi.com/playground?engine=google_translate&text=I+love+coffee.+It+helps+me+start+my+day.&from=auto&to=es&utm_source=github_google_translate_scraper).
 
+[![Google Translate API results in the SerpApi Playground](images/playground.png)](https://serpapi.com/playground?engine=google_translate&text=I+love+coffee.+It+helps+me+start+my+day.&from=auto&to=es&utm_source=github_google_translate_scraper)
+
 ## Code examples
 
 The code examples read your API key from the `SERPAPI_API_KEY` environment variable:
