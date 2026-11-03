@@ -1,6 +1,8 @@
+[![Google Translate API results in the SerpApi Playground](images/playground.png)](https://serpapi.com/playground?engine=google_translate&text=I+love+coffee.+It+helps+me+start+my+day.&from=auto&to=es&utm_source=github_google_translate_scraper)
+
 # Google Translate Scraper
 
-Google Translate Scraper translates text through a simple API and detects the source language. Depending on the text, responses also include sentence pairs, pronunciations, gender-specific translations, spelling corrections, and dictionary data such as alternative translations, definitions, and examples.
+SerpApi's Google Translate API translates text and detects the source language. Depending on the text, responses also include sentence pairs, pronunciations, gender-specific translations, spelling corrections, and dictionary data such as alternative translations, definitions, and examples.
 
 Choose structured JSON for applications or Markdown for LLMs and AI agents.
 
@@ -19,8 +21,6 @@ https://serpapi.com/search?engine=google_translate&text=I+love+coffee.+It+helps+
 See the [Google Translate languages](https://serpapi.com/google-translate-languages?utm_source=github_google_translate_scraper) page for all supported language codes.
 
 [Register at SerpApi](https://serpapi.com?utm_source=github_google_translate_scraper) to get your API key, and keep it private. Try the request live in the [SerpApi Playground](https://serpapi.com/playground?engine=google_translate&text=I+love+coffee.+It+helps+me+start+my+day.&from=auto&to=es&utm_source=github_google_translate_scraper).
-
-[![Google Translate API results in the SerpApi Playground](images/playground.png)](https://serpapi.com/playground?engine=google_translate&text=I+love+coffee.+It+helps+me+start+my+day.&from=auto&to=es&utm_source=github_google_translate_scraper)
 
 ## Code examples
 
