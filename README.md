@@ -40,6 +40,8 @@ Me encanta el café. Me ayuda a comenzar mi día.
 
 ### curl integration
 
+Send the request with curl, which prints the full JSON response:
+
 ```bash
 curl --get https://serpapi.com/search \
  --data-urlencode engine="google_translate" \
@@ -243,7 +245,10 @@ Failed requests return an HTTP error status and a JSON body with an `error` mess
 
 ## Output formats: JSON and Markdown
 
-Choose structured JSON for applications or Markdown for LLMs and AI agents. JSON is the default output and is useful when you need individual result fields. Add `output=md` to receive Markdown instead, which is more token-efficient.
+Choose structured JSON for applications or Markdown for LLMs and AI agents:
+
+- JSON is the default output and is useful when you need individual result fields.
+- Add `output=md` to receive Markdown instead, which is more token-efficient.
 
 Markdown is plain text, not JSON, so read the response body as text instead of parsing it. Its structure doesn't follow the JSON field names.
 
@@ -298,6 +303,8 @@ Each request translates a single text.
 
 ### Translation
 
+`translation` holds the source text and its translation:
+
 ```json
 {
   "translation": {
@@ -329,6 +336,8 @@ Each request translates a single text.
 ```
 
 ### Dictionary data
+
+Words and short phrases can also include dictionary data:
 
 ```json
 {
@@ -379,6 +388,8 @@ Each request translates a single text.
 When a translation is gender-specific, `article` and `reverse_translations` are stored in the matching `gender_specific_translations` item instead of `target`.
 
 ### Spelling corrections
+
+Corrections for misspelled text are returned in `search_information`:
 
 ```json
 {
