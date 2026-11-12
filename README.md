@@ -480,7 +480,7 @@ Use SerpApi APIs without writing code:
 
 ## Use cases
 
-- Translate product descriptions, reviews, and support content for international audiences.
+- Translate your own product descriptions, help articles, and support replies for international customers.
 - Detect the language of user-generated content before routing or analyzing it.
 - Translate search results and reviews from other SerpApi APIs to research foreign markets.
 - Give multilingual AI agents and RAG pipelines a translation tool.
